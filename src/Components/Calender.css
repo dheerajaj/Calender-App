@@ -1,0 +1,120 @@
+.calendar-container {
+  width: 100%;
+  margin: 0 auto;
+  /* position: relative; */
+  margin-top: 70px;
+}
+
+.upper-half {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.time-zone {
+  height: 70px;
+  margin: 20px 10px 10px 10px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+}
+
+
+.nav-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.nav-button:hover {
+  background-color: #2980b9;
+}
+
+.current-week {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.timee {
+  max-width: 400px;
+}
+
+.time-intervals {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.time-interval {
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  margin: 10px;
+  /* padding: 10px; */
+}
+
+.hour-label {
+  margin-bottom: 5px;
+  width: 80px;
+}
+
+.time-part {
+  display: flex;
+  flex-direction: row;
+}
+
+.time-d {
+  display: flex;
+  flex-direction: row;
+}
+
+.week-events {
+  width: 1300px;
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.day-events {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% / 5 - 20px);
+}
+
+.date-label {
+  width: 100px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.event-details {
+  margin-bottom: 10px;
+}
+
+.event-name {
+  font-weight: bold;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.checkbox:checked + .checkbox-label {
+  background-color: #2c3e50;
+}
